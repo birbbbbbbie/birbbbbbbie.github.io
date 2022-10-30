@@ -61,7 +61,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #E7E3DB;
+  --bs-body-bg: #FEFEFC;
 }
 
 *,
@@ -6920,7 +6920,7 @@ textarea.form-control-lg {
 }
 
 .border-white {
-  border-color: #E7E3DB !important;
+  border-color: #FEFEFC !important;
 }
 
 .border-1 {
@@ -11324,12 +11324,12 @@ hr.divider {
 }
 
 hr.divider-light {
-  background-color: #E7E3DB;
+  background-color: #FEFEFC;
 }
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #E7E3DB;
+  background-color: #FEFEFC;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -11373,7 +11373,7 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #E7E3DB;
+    background-color: #FEFEFC;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
