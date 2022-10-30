@@ -4001,7 +4001,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #33658A;
 }
 
 .nav-fill > .nav-link,
@@ -11345,7 +11345,7 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #33658A;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
