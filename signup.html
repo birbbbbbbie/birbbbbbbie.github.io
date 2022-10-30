@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <style>
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            
+        </style>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -22,27 +37,20 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <div class="responsive_menu">
-                    <ul class="main_menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Portfolio</a>
-                            <ul>
-                                <li><a href="portfolio.html">Portfolio Grid</a></li>
-                                <li><a href="project-image.html">Project Image</a></li>
-                                <li><a href="project-slideshow.html">Project Slideshow</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Blog</a>
-                            <ul>
-                                <li><a href="blog.html">Blog Standard</a></li>
-                                <li><a href="blog-single.html">Blog Single</a></li>
-                                <li><a href="#">visit templatemo</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="archives.html">Archives</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul> <!-- /.main_menu -->
-                </div> <!-- /.responsive_menu -->
+                <a class="navbar-brand" href="#page-top">Team 5857</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Get Involved</a></li>
+                            <div class="dropdown-content">
+                                <li class="nav-item"><a class="nav-link" href="signup.html">Sign up</a></li>
+                            </div>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <!-- Masthead-->
@@ -170,7 +178,6 @@
             <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 - Walnut Valley Robotics</div></div>
         </footer>
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- SimpleLightbox plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
         <!-- Core theme JS-->
