@@ -3128,8 +3128,8 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #2F4858;
+  border-color: #2F4858;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11461,8 +11461,8 @@ hr.divider-light {
 }
 @media (min-width: 992px) {
   #mainNav {
-    box-shadow: none;
-    background-color: transparent;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #FEFEFC;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -11471,11 +11471,11 @@ hr.divider-light {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgb(0, 0, 0);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #33658A;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -11495,6 +11495,37 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #33658A;
+  }
+}
+header.abouthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/teampic\ copy.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.abouthead h1, header.abouthead .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.abouthead {
+    height: 85vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.abouthead p {
+    font-size: 1.15rem;
+  }
+  header.abouthead h1, header.abouthead .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.abouthead h1, header.abouthead .h1 {
+    font-size: 3.5rem;
   }
 }
 
