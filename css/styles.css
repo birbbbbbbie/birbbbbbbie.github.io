@@ -3128,8 +3128,8 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #2F4858;
-  border-color: #2F4858;
+  background-color: #cf5331;
+  border-color: #c34e2e;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11511,7 +11511,7 @@ header.abouthead h1, header.abouthead .h1 {
 }
 @media (min-width: 992px) {
   header.abouthead {
-    height: 85vh;
+    height: 80vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
@@ -11527,6 +11527,14 @@ header.abouthead h1, header.abouthead .h1 {
   header.abouthead h1, header.abouthead .h1 {
     font-size: 3.5rem;
   }
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
 }
 
 header.masthead {
