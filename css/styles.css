@@ -7469,7 +7469,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 5rem !important;
 }
 
 .mb-auto {
@@ -7543,8 +7543,9 @@ textarea.form-control-lg {
 }
 
 .bg-faded {
-  background-color: rgba(106, 211, 235, 0.75);
+  background-color: rgba(106, 211, 235, 0.8);
 }
+/*rgba(164, 222, 235, 0.8);*/
 
 .px-0 {
   padding-right: 0 !important;
@@ -11408,7 +11409,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .text-white-75 {
