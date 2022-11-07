@@ -629,7 +629,7 @@ progress {
 }
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: 1.7rem;
   font-weight: 100;
 }
 
@@ -3128,8 +3128,8 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #2F4858;
+  border-color: #2F4858;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -7543,7 +7543,7 @@ textarea.form-control-lg {
 }
 
 .bg-faded {
-  background-color: #77C6D8;
+  background-color: rgba(106, 211, 235, 0.75);
 }
 
 .px-0 {
@@ -11497,6 +11497,57 @@ hr.divider-light {
     color: #33658A;
   }
 }
+header.signhead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/IMG_4833.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.signhead h1, header.signhead .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.signhead {
+    height: 90vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.signhead p {
+    font-size: 1.15rem;
+  }
+  header.signhead h1, header.signhead .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.signhead h1, header.signhead .h1 {
+    font-size: 3.5rem;
+  }
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
 header.abouthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -11511,7 +11562,7 @@ header.abouthead h1, header.abouthead .h1 {
 }
 @media (min-width: 992px) {
   header.abouthead {
-    height: 80vh;
+    height: 90vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
@@ -11535,6 +11586,18 @@ header.abouthead h1, header.abouthead .h1 {
 .col-lg-6 {
   flex: 0 0 auto;
   width: 50%;
+}
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
 }
 
 header.masthead {
