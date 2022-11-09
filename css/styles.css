@@ -4095,7 +4095,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.25);
   border-color: transparent;
 }
 .nav-tabs .nav-link.active,
@@ -4205,7 +4205,7 @@ textarea.form-control-lg {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.25);
   border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
@@ -4273,7 +4273,7 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.25);
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -11488,8 +11488,8 @@ hr.divider-light {
 }
 @media (min-width: 992px) {
   #mainNav {
-    box-shadow: none;
-    background-color: transparent;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.25);
   }
   
   #mainNav .navbar-brand {
