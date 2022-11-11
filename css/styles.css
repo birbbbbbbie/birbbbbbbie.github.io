@@ -12394,4 +12394,9 @@ header.masthead h1, header.masthead .h1 {
     max-width: 80%;
     height: auto;
   }
+  .btn-primary {
+    color: #fff;
+    background-color: #2F4858;
+    border-color: #2F4858;
+  }
 }
