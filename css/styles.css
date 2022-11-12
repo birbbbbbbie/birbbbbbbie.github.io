@@ -12094,7 +12094,7 @@ header.teamshead h1, header.teamshead .h1 {
 header.conhead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/Screen\ Shot\ 2022-11-10\ at\ 9.00.16\ PM.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/fll2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12196,7 +12196,7 @@ header.outhead h1, header.outhead .h1 {
 header.signhead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/IMG_4833.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/legacy.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12586,13 +12586,13 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .title-section {
-  margin: 4rem auto;
+  padding: 4rem;
 }
 
 header.dvhead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/IMG_6461.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/legacy2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
