@@ -288,14 +288,30 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   padding: 3rem;
   font-size: 90%;
 }
-@media (max-width: 992px) {
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+@media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
+  }
+  .menu, .main, .right {
+    width: 100%;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
-    width: 100%;
+    width: 30%;
   }
 }
 .w-100 {
