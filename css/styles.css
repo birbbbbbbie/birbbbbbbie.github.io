@@ -288,7 +288,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   padding: 3rem;
   font-size: 90%;
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
   }
