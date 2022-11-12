@@ -295,7 +295,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   .projects-section .project-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
-    width: 30%;
+    width: 100%;
   }
 }
 .w-100 {
