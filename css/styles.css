@@ -12240,6 +12240,159 @@ header.outhead h1, header.outhead .h1 {
     padding: 7rem;
   }
 }
+header.fllhead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/Screen\ Shot\ 2022-11-11\ at\ 7.02.03\ PM.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.fllhead h1, header.fllhead .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.fllhead {
+    height: 90vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.fllhead p {
+    font-size: 1.15rem;
+  }
+  header.fllhead h1, header.fllhead .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.fllhead h1, header.fllhead .h1 {
+    font-size: 3.5rem;
+  }
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+header.comhead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/Screen\ Shot\ 2022-11-11\ at\ 7.01.45\ PM.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.comhead h1, header.comhead .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.comhead {
+    height: 90vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.comhead p {
+    font-size: 1.15rem;
+  }
+  header.comhead h1, header.comhead .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.comhead h1, header.comhead .h1 {
+    font-size: 3.5rem;
+  }
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+header.ghanahead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/Screen\ Shot\ 2022-11-10\ at\ 5.07.48\ PM.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.ghanahead h1, header.ghanahead .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.ghanahead {
+    height: 90vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.ghanahead p {
+    font-size: 1.15rem;
+  }
+  header.ghanahead h1, header.ghanahead .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.ghanahead h1, header.ghanahead .h1 {
+    font-size: 3.5rem;
+  }
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
 header.signhead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
