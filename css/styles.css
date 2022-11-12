@@ -992,6 +992,12 @@ progress {
   max-width: 80%;
   height: auto;
 }
+@media (min-width: 992px) {
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 @media (min-width: 576px) {
   .container-sm, .container {
