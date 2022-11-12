@@ -12452,8 +12452,8 @@ header.masthead h1, header.masthead .h1 {
 	position: absolute;
 	z-index: 100;
 	left: 0;
-	width: 30px;
-	height: 30px;
+	width: 80px;
+	height: 80px;
 	margin-left: 0;
 	text-align: center;
 	color: #fff;
@@ -12573,4 +12573,14 @@ header.masthead h1, header.masthead .h1 {
 	.timeline > li.timeline-inverted > .timeline-panel {
 		padding: 0 100px 20px 20px;
 	}
+}
+
+.btn-social {
+	height: 2.5rem;
+	width: 2.5rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	border-radius: 100%;
 }
