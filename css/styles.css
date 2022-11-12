@@ -12584,3 +12584,39 @@ header.masthead h1, header.masthead .h1 {
 	padding: 0;
 	border-radius: 100%;
 }
+
+.title-section {
+  margin: 4rem auto;
+}
+
+header.dvhead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../assets/img/IMG_6461.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.dvhead h1, header.dvhead .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.dvhead {
+    height: 90vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.dvhead p {
+    font-size: 1.15rem;
+  }
+  header.dvhead h1, header.dvhead .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.dvhead h1, header.dvhead .h1 {
+    font-size: 3.5rem;
+  }
+}
