@@ -12620,3 +12620,7 @@ header.dvhead h1, header.dvhead .h1 {
     font-size: 3.5rem;
   }
 }
+
+a.btn.btn-dark {
+  margin: auto 2rem;
+}
