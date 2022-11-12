@@ -925,6 +925,12 @@ progress {
     font-size: 3.5rem;
   }
 }
+@media (min-width: 1200px) {
+  .img-fluid {
+    max-width: 80%;
+    height: auto;
+  }
+}
 
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
@@ -988,10 +994,6 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
-  max-width: 80%;
-  height: auto;
-}
 @media (min-width: 992px) {
   .img-fluid {
     max-width: 100%;
